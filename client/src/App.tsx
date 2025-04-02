@@ -3,7 +3,7 @@ import React from 'react';
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to the React App</h1>
+      <h1>Hello World</h1>
     </div>
   );
 };
