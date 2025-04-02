@@ -7,7 +7,7 @@ This project is a monorepo containing both the client and server code. The clien
 ## Prerequisites
 
 - Node.js (>= 14.x)
-- npm (>= 6.x)
+- pnpm (>= 6.x)
 
 ## Installation
 
@@ -21,7 +21,7 @@ cd simpleatscvbuilder_agent_2
 2. Install dependencies:
 
 ```sh
-npm install
+pnpm install
 ```
 
 ## Client Setup
@@ -34,7 +34,7 @@ To start the client in development mode with hot reloading:
 
 ```sh
 cd client
-npm run dev
+pnpm run dev
 ```
 
 ### Build
@@ -43,7 +43,7 @@ To build the client for production:
 
 ```sh
 cd client
-npm run build
+pnpm run build
 ```
 
 ## Server Setup
@@ -56,7 +56,7 @@ To start the server in development mode with hot reloading:
 
 ```sh
 cd server
-npm run dev
+pnpm run dev
 ```
 
 ### Production
@@ -65,7 +65,7 @@ To start the server in production mode:
 
 ```sh
 cd server
-npm run start
+pnpm run start
 ```
 
 ## Running the Project
@@ -73,11 +73,11 @@ npm run start
 To run both the client and server in development mode:
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 To run both the client and server in production mode:
 
 ```sh
-npm run start
+pnpm run start
 ```
